@@ -2,16 +2,16 @@ const Navbar = () => {
   const navOPtions = (
     <>
       <li>
-        <a>Home</a>
+        <a className="text-gray-700">Home</a>
       </li>
       <li>
-        <a>About</a>
+        <a className="text-gray-700">About</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a className="text-gray-700">Projects</a>
       </li>
       <li>
-        <a>Contact Us</a>
+        <a className="text-gray-700">Contact Us</a>
       </li>
     </>
   );
@@ -43,13 +43,13 @@ const Navbar = () => {
             {navOPtions}
           </ul>
         </div>
-        <a className="text-xl font-extrabold">CodeVerse Studio</a>
+        <a className="text-2xl font-bold">Code<span className="text-[#0046FF]">Verse</span></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navOPtions}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-[#34353A] text-white">Let's Talk</a>
+        <a className="btn bg-[#0046FF] text-white text-lg">Let's Talk</a>
       </div>
     </div>
   );
